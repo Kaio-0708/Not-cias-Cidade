@@ -1,5 +1,3 @@
-/* Estrutura do site
-*/
 * {
 	margin:0;
 	padding:0;
@@ -27,8 +25,6 @@ body{
 	background: url(../imagens/logo.png) no-repeat center;
 	text-indent: -3000px;
 }
-
-
 
 /*Barra de navegação */
 a:link, a:visited {
@@ -69,6 +65,7 @@ ul {
 #topo ul a:hover{
 	color: black;
 }
+
 body.home #navegacao a#home
 body.brasil #navegacao a#brasil
 body.internacional #navegacao a#internaciona
@@ -82,10 +79,7 @@ body.fotos #navegacao a#fotos
 	cursor:text;
 }
 
-
-
 /*configuração do conteudo*/
-
 #conteudo{
 	background: #f5f5f5;
 	margin-top: 60px;
@@ -118,8 +112,6 @@ body.fotos #navegacao a#fotos
 	margin: 0 0 20px 15px;
 }
 
-
-
 /*caixa*/
 .caixa{
 	background: f3f3f3f url(../imagens/fundo-caixa.png);
@@ -142,10 +134,7 @@ h2{
 	margin-top: 5px;
 }
 
-
-
 /* Formatar menus laterais*/
-
 #lateral ul a{
 	font-size: 0.9em;
 	padding: 3px;
@@ -162,9 +151,7 @@ h2{
 	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left;
 }
 
-
 /*Formatando formulários*/
-
 label{
 	display:block;
 	cursor:pointer;
@@ -185,13 +172,10 @@ input.submit{
 }
 
 /*Formatar imagens*/
-
-
 img.imagem-principal{
 	width: 98%;
 	border: 3px solid #dfdfdf;
 }
-
 
 /*Formatar cabeçalhos*/
 h3{
@@ -210,9 +194,7 @@ p{
 	text-decoration: underline;
 }
 
-
 /*Formatando lista de notícias*/
-
 #lista-noticias li{
 	padding: 2px;
 	border-bottom: 1px solid #ccc;
@@ -240,7 +222,6 @@ p{
 	background: #eee;
 	cursor: pointer;
 }
-
 
 /*rodape*/
 #container-rodape{
